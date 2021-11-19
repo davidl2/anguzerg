@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+<body>
+
+<div ng-app="zergApp" ng-controller="zergController" >
+  Given Name(s): <input type="text" ng-model="givenNames"><br>
+  Surname(s): <input type="text" ng-model="surNames"><br>
+  <br>
+  Full Name: {{givenNames + " " + surNames}}
+  <hr/>
+
+  <p>An expression: {{ 52 * 3 + 18 }}</p>
+</div>
+<script src="anguzerg.js" />
+
+</body>
+</html>
